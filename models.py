@@ -57,7 +57,7 @@ class TransformerModel(nn.Module):
 
 
 class CfCModel(nn.Module):
-    def __init__(self, input_dim=9, num_classes=6, units=64, dropout=DROPOUT):
+    def __init__(self, input_dim=9, num_classes=6, units=136, dropout=DROPOUT):
         super().__init__()
         from ncps.torch import CfC  # lazy import so LSTM/Transformer work without ncps
         self.cfc = CfC(input_dim, units, batch_first=True,
