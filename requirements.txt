@@ -1,0 +1,5 @@
+torch==X.Y.Z
+ncps==X.Y.Z
+numpy==X.Y.Z
+pynvml==X.Y.Z
+codecarbon==X.Y.Z
