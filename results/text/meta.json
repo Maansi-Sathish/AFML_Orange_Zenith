@@ -1,0 +1,29 @@
+{
+  "vocab_size": 8192,
+  "token_counts": {
+    "train": 60000000,
+    "val": 1000000,
+    "test": 1000000
+  },
+  "filter_stats": {
+    "total": 1000000,
+    "not_english": 222547,
+    "flagged": 48411,
+    "redacted": 237740,
+    "bad_length": 8066,
+    "duplicate": 188264,
+    "kept": 294972
+  },
+  "seed": 1337,
+  "specials": [
+    "<|pad|>",
+    "<|eos|>",
+    "<|user|>",
+    "<|assistant|>"
+  ],
+  "dtype": "uint16",
+  "requested": {
+    "train": 60000000,
+    "eval": 1000000
+  }
+}
