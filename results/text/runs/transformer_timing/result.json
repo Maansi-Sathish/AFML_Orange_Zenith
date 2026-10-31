@@ -1,0 +1,16 @@
+{
+  "arch": "transformer",
+  "params": 10019840,
+  "precision": "fp16",
+  "seq_len": 256,
+  "batch": 32,
+  "tokens_trained": 1998848,
+  "train_time_s": 15.310182094573975,
+  "best_val_ppl": 277.7664762711688,
+  "test_ppl": 272.51521944956454,
+  "seed": 1337,
+  "d_model": 320,
+  "n_layer": 6,
+  "n_head": 5,
+  "lr": 0.001
+}
